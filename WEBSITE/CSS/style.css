@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../baby-sitting-on-green-grass-beside-bear-plush-toy-at-daytime-1166473.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
+}
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: pink;
+  padding: 5px 40px;
+  border: rgb(4, 2, 37);
+
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover {
+  background-color: white;
+  color: black;
+}
+ul li.active a {
+  background-color: white;
+  color: black;
+}
+.logo img {
+  float: left;
+  width: 150px;
+  height: auto;
+}
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%-50%);
+}
+.title h1 {
+  color: rgb(233, 172, 151);
+
+  font-size: 80px;
+}
+.button {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%-50%);
+}
+.btn {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
